@@ -1,0 +1,66 @@
+2026-11-16T11:12:37.043Z INFO Is remote: false
+2026-11-16T11:12:37.050Z INFO Starting Local. Installation path: undefined
+2026-11-16T11:12:37.052Z INFO [MainProvider] Creating new MainProvider instance...
+2026-11-16T11:12:37.053Z INFO [TabsManager] Code view listener set up at initialization
+2026-11-16T11:12:37.055Z INFO Installation path exists: e:\PGP_Data_Science_ AIML\python\oops
+2026-11-16T11:12:37.056Z INFO Initializing database with URL: file:C:\Users\AJITHJ~1\AppData\Local\Temp\pythagora-temp\pythagora.db
+2026-11-16T11:12:37.059Z INFO New database detected, running full prisma setup...
+2026-11-16T11:12:37.060Z INFO [c:\Users\AJITH JOY\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19] Project root:
+2026-11-16T11:12:37.061Z INFO [c:\Users\AJITH JOY\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\prisma\schema.prisma] Schema path:
+2026-11-16T11:12:37.062Z INFO [file:C:\Users\AJITHJ~1\AppData\Local\Temp\pythagora-temp\pythagora.db] Database URL:
+2026-11-16T11:12:37.063Z INFO [true] Schema exists:
+2026-11-16T11:12:37.063Z INFO Running prisma generate first...
+2026-11-16T11:12:44.929Z INFO [Prisma schema loaded from prisma\schema.prisma
+
+✔ Generated Prisma Client (6.19.1) to .\src\generated\prisma in 261ms
+
+] Prisma generate result:
+2026-11-16T11:12:45.214Z INFO Running prisma db push to sync schema...
+2026-11-16T11:12:50.503Z INFO [Prisma schema loaded from prisma\schema.prisma
+Datasource "db": SQLite database "pythagora.db" at "file:C:\Users\AJITHJ~1\AppData\Local\Temp\pythagora-temp\pythagora.db"
+
+SQLite database pythagora.db created at file:C:\Users\AJITHJ~1\AppData\Local\Temp\pythagora-temp\pythagora.db
+
+Your database is now in sync with your Prisma schema. Done in 162ms
+
+Running generate... (Use --skip-generate to skip the generators)
+[2K[1A[2K[GRunning generate... - Prisma Client
+[2K[1A[2K[G✔ Generated Prisma Client (6.19.1) to .\src\generated\prisma in 655ms
+
+] Prisma db push result:
+2026-11-16T11:12:50.506Z INFO Database initialized successfully
+2026-11-16T11:12:50.507Z INFO [Migration] Checking for database migration...
+2026-11-16T11:12:56.268Z INFO [Migration] No migration needed
+2026-11-16T11:15:06.859Z INFO [TabsManager] First file opened, triggering split view
+2026-11-16T11:15:06.860Z INFO [MainProvider] First file opened, creating split view
+2026-11-16T11:16:06.859Z INFO [TabsManager] First file opened, triggering split view
+2026-11-16T11:16:06.859Z INFO [MainProvider] First file opened, creating split view
+2026-11-16T11:36:57.291Z INFO Closing entire Pythagora extension...
+2026-11-16T11:36:57.338Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+	at new gS (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:153524)
+	at i._remoteCall (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:159608)
+	at r.<computed>.s.charCodeAt.r.<computed> (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:156361)
+	at bf._doExecuteCommand (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:48319)
+	at bf.executeCommand (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:47766)
+	at Object.executeCommand (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:294:139323)
+	at closeEntirePythagoraExtension (c:\Users\AJITH JOY\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:542:31)
+	at Object.deactivate (c:\Users\AJITH JOY\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:409:15)
+	at t_._deactivate (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:14629)
+	at file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:12156
+	at Array.map (<anonymous>)
+	at t_._deactivateAll (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:12144)
+	at t_.terminate (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:12495)
+	at i.terminate (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:170:1072)
+	at ya (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:473:11797)
+	at $p.value (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:473:9939)
+	at T._deliver (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:28:3617)
+	at T.fire (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:28:3935)
+	at ws.fire (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:8627)
+	at MessagePortMain.<anonymous> (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:473:8171)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+Extra context: {
+  "message": "Canceled"
+}
