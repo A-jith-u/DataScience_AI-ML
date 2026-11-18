@@ -45,4 +45,5 @@ class ContractEmployee(Employee):                             #Creating a subcla
         self.basic_salary=self.basic_salary+(5/100)*self.allowance
         print(f" Salary of contract employee is:{self.basic_salary}")
 
-            
+           
+          

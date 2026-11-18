@@ -1,0 +1,92 @@
+2026-11-17T04:59:16.846Z INFO Is remote: false
+2026-11-17T04:59:16.848Z INFO Starting Local. Installation path: undefined
+2026-11-17T04:59:16.850Z INFO [MainProvider] Creating new MainProvider instance...
+2026-11-17T04:59:16.852Z INFO [TabsManager] Code view listener set up at initialization
+2026-11-17T04:59:16.853Z INFO Installation path exists: e:\PGP_Data_Science_ AIML\python\oops\BankAccountManagementSystem
+2026-11-17T04:59:16.853Z INFO Initializing database with URL: file:C:\Users\AJITHJ~1\AppData\Local\Temp\pythagora-temp\pythagora.db
+2026-11-17T04:59:16.860Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-11-17T04:59:16.861Z INFO Database initialized successfully
+2026-11-17T04:59:16.862Z INFO [Migration] Checking for database migration...
+2026-11-17T04:59:17.028Z INFO [Migration] No migration needed
+2026-11-17T05:04:03.803Z INFO [TabsManager] First file opened, triggering split view
+2026-11-17T05:04:03.804Z INFO [MainProvider] First file opened, creating split view
+2026-11-17T06:54:06.803Z INFO [TabsManager] First file opened, triggering split view
+2026-11-17T06:54:06.804Z INFO [MainProvider] First file opened, creating split view
+2026-11-17T06:57:11.547Z INFO [TabsManager] First file opened, triggering split view
+2026-11-17T06:57:11.548Z INFO [MainProvider] First file opened, creating split view
+2026-11-17T06:57:25.969Z INFO [TabsManager] First file opened, triggering split view
+2026-11-17T06:57:25.970Z INFO [MainProvider] First file opened, creating split view
+2026-11-17T07:05:10.200Z INFO [TabsManager] First file opened, triggering split view
+2026-11-17T07:05:10.201Z INFO [MainProvider] First file opened, creating split view
+2026-11-17T11:32:48.008Z INFO Closing entire Pythagora extension...
+2026-11-17T11:32:48.059Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+	at new gS (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:153524)
+	at i._remoteCall (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:159608)
+	at r.<computed>.s.charCodeAt.r.<computed> (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:156361)
+	at bf._doExecuteCommand (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:48319)
+	at bf.executeCommand (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:47766)
+	at Object.executeCommand (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:294:139323)
+	at closeEntirePythagoraExtension (c:\Users\AJITH JOY\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:542:31)
+	at Object.deactivate (c:\Users\AJITH JOY\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:409:15)
+	at t_._deactivate (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:14629)
+	at file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:12156
+	at Array.map (<anonymous>)
+	at t_._deactivateAll (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:12144)
+	at t_.terminate (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:12495)
+	at i.terminate (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:170:1072)
+	at ya (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:473:11797)
+	at $p.value (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:473:9939)
+	at T._deliver (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:28:3617)
+	at T.fire (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:28:3935)
+	at ws.fire (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:8627)
+	at MessagePortMain.<anonymous> (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:473:8171)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+Extra context: {
+  "message": "Canceled"
+}
+2026-11-18T04:50:26.956Z INFO Is remote: false
+2026-11-18T04:50:26.959Z INFO Starting Local. Installation path: undefined
+2026-11-18T04:50:26.962Z INFO [MainProvider] Creating new MainProvider instance...
+2026-11-18T04:50:26.967Z INFO [TabsManager] Code view listener set up at initialization
+2026-11-18T04:50:26.970Z INFO Installation path exists: e:\PGP_Data_Science_ AIML\python\oops\BankAccountManagementSystem
+2026-11-18T04:50:26.972Z INFO Initializing database with URL: file:C:\Users\AJITHJ~1\AppData\Local\Temp\pythagora-temp\pythagora.db
+2026-11-18T04:50:26.981Z INFO Database file exists, skipping prisma generate/push for faster startup
+2026-11-18T04:50:26.984Z INFO Database initialized successfully
+2026-11-18T04:50:26.987Z INFO [Migration] Checking for database migration...
+2026-11-18T04:50:30.184Z INFO [Migration] No migration needed
+2026-11-18T05:32:34.966Z INFO [TabsManager] First file opened, triggering split view
+2026-11-18T05:32:34.967Z INFO [MainProvider] First file opened, creating split view
+2026-11-18T05:36:56.548Z INFO [TabsManager] First file opened, triggering split view
+2026-11-18T05:36:56.549Z INFO [MainProvider] First file opened, creating split view
+2026-11-18T08:45:11.259Z INFO Closing entire Pythagora extension...
+2026-11-18T08:45:11.295Z ERROR Error closing extension
+Error: Canceled
+Stack: Canceled: Canceled
+	at new gS (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:153524)
+	at i._remoteCall (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:159608)
+	at r.<computed>.s.charCodeAt.r.<computed> (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:32:156361)
+	at bf._doExecuteCommand (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:48319)
+	at bf.executeCommand (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:164:47766)
+	at Object.executeCommand (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:294:139323)
+	at closeEntirePythagoraExtension (c:\Users\AJITH JOY\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:542:31)
+	at Object.deactivate (c:\Users\AJITH JOY\.vscode\extensions\pythagoratechnologies.pythagora-vs-code-2.6.19\out\extension.js:409:15)
+	at t_._deactivate (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:14629)
+	at file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:12156
+	at Array.map (<anonymous>)
+	at t_._deactivateAll (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:12144)
+	at t_.terminate (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:168:12495)
+	at i.terminate (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:170:1072)
+	at ya (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:473:11797)
+	at $p.value (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:473:9939)
+	at T._deliver (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:28:3617)
+	at T.fire (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:28:3935)
+	at ws.fire (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:8627)
+	at MessagePortMain.<anonymous> (file:///c:/Users/AJITH%20JOY/AppData/Local/Programs/Microsoft%20VS%20Code/04c0d99f4f/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:473:8171)
+	at MessagePortMain.emit (node:events:514:28)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+Extra context: {
+  "message": "Canceled"
+}
